@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="pesquisar">
+    <file>1x/B_comprashover.png</file>
+    <file>1x/B_RHhover.png</file>
+    <file>1x/B_tecnologiahover.png</file>
+    <file>1x/B_compras.png</file>
+    <file>1x/B_RH.png</file>
+    <file>1x/B_tecnologia.png</file>
+    <file>1x/iconLogo.png</file>
+    <file>1x/pesquisarhover.png</file>
+    <file>1x/Prancheta 136.png</file>
+  </qresource>
+</RCC>

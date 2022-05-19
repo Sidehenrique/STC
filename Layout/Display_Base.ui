@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1362</width>
+    <height>844</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>1280</width>
+     <height>720</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frameBackMenu">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>100</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(213, 222, 64);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="minimumSize">
+          <size>
+           <width>172</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>172</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/pesquisar/1x/iconLogo.png);
+background-position:center;
+background-repeat: no-repeat;
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="minimumSize">
+          <size>
+           <width>1000</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>60000</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="toolTipDuration">
+          <number>-1</number>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="spacing">
+           <number>3</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="pushButton_usuario">
+            <property name="minimumSize">
+             <size>
+              <width>151</width>
+              <height>99</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>151</width>
+              <height>99</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Asap</family>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	background-color: rgb(224, 233, 73);
+	color: rgb(0, 53, 62);
+	border:1px solid rgb(94, 104, 28);
+}
+QPushButton:hover {
+	background-color: rgb(230, 238, 68);
+	border:1px solid rgb(0, 53, 62);
+}
+
+QPushButton:pressed {
+	background-color: rgb(94, 104, 28);
+	color: rgb(255, 255, 255);
+}</string>
+            </property>
+            <property name="text">
+             <string>USUÁRIO</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_perfil">
+            <property name="minimumSize">
+             <size>
+              <width>151</width>
+              <height>99</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>151</width>
+              <height>99</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Asap</family>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	background-color: rgb(224, 233, 73);
+	color: rgb(0, 53, 62);
+	border:1px solid rgb(94, 104, 28);
+}
+QPushButton:hover {
+	background-color: rgb(230, 238, 68);
+	border:1px solid rgb(0, 53, 62);
+}
+
+QPushButton:pressed {
+	background-color: rgb(94, 104, 28);
+	color: rgb(255, 255, 255);
+}</string>
+            </property>
+            <property name="text">
+             <string>PERFIL</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_sair">
+            <property name="minimumSize">
+             <size>
+              <width>151</width>
+              <height>99</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>151</width>
+              <height>99</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Asap</family>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	background-color: rgb(224, 233, 73);
+	color: rgb(0, 53, 62);
+	border:1px solid rgb(94, 104, 28);
+}
+QPushButton:hover {
+	background-color: rgb(230, 238, 68);
+	border:1px solid rgb(0, 53, 62);
+}
+
+QPushButton:pressed {
+	background-color: rgb(94, 104, 28);
+	color: rgb(255, 255, 255);
+}</string>
+            </property>
+            <property name="text">
+             <string>SAIR</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_pesquisar">
+            <property name="minimumSize">
+             <size>
+              <width>380</width>
+              <height>63</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>490</width>
+              <height>63</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Asap</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit {
+	background-color: rgb(238, 238, 238);
+	border: none;
+	padding: 10px;
+	coloc:rgb(77, 77, 77)
+}
+QLineEdit:hover {
+	background-color: rgb(243, 243, 243);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="maxLength">
+             <number>32</number>
+            </property>
+            <property name="placeholderText">
+             <string>Pesquisar</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_pesquisar">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>63</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>63</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	background-image: url(:/pesquisar/1x/Prancheta 136.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-color: rgb(238, 238, 238);
+	border: none;
+}
+QPushButton:hover {
+	background-image: url(:/pesquisar/1x/pesquisarhover.png);
+	background-color: rgb(243, 243, 243);
+}
+QPushButton:pressed {
+	background-color: rgb(226, 226, 226);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="minimumSize">
+          <size>
+           <width>172</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>172</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_4">
+            <property name="maximumSize">
+             <size>
+              <width>85</width>
+              <height>85</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+border:1px solid rgb(94, 104, 28);
+border-radius: 42px;</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frameBody">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(199, 211, 0);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frameRodape">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(199, 211, 0);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ICONES/IconPesquisar.qrc"/>
+ </resources>
+ <connections/>
+</ui>
