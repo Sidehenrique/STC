@@ -22,8 +22,8 @@
   <widget class="QWidget" name="centralwidget">
    <property name="minimumSize">
     <size>
-     <width>1000</width>
-     <height>800</height>
+     <width>1366</width>
+     <height>720</height>
     </size>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_3">
