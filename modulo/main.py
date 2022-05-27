@@ -37,9 +37,6 @@ def main(ui):
             MainLogin.close()
             MainWindow.show()
 
-
-
-
         else:
             texto3 = 'A senha esta incorreta'
             mensage(texto3)
