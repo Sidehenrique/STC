@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>1x/iconCell.png</file>
+    <file>1x/iconColaboradores 245px.png</file>
+    <file>1x/logo75cm.png</file>
+    <file>1x/logoicon.png</file>
+    <file>1x/pesquisarhover.png</file>
+    <file>1x/Prancheta 136.png</file>
+  </qresource>
+</RCC>

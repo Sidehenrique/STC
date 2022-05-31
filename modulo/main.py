@@ -35,7 +35,7 @@ def main(ui):
             mensage(texto2)
             print('Sucesso!!!')
             MainLogin.close()
-            MainWindow.show()
+            MainWindow.showMaximized()
 
         else:
             texto3 = 'A senha esta incorreta'
@@ -46,10 +46,19 @@ def main(ui):
 
 def home(mw):
     # Tratamento Botão sair -----------------------------------------------------------
-    def getLogin():
+    def callLogin():
         MainWindow.close()
-        MainLogin.show()
-    mw.pushButton_sair.clicked.connect(getLogin)
+        ui.frame_erro.close()
+        ui.lineEdit.clear()
+        ui.lineEdit_3.clear()
+        MainLogin.showMaximized()
+
+    mw.pushButton_sair.clicked.connect(callLogin)
+
+    def callTi():
+        MainWindow.close()
+
+
 
 
 if __name__ == "__main__":
@@ -62,7 +71,7 @@ if __name__ == "__main__":
     mw = Ui_MainWindow()
     mw.setupUi(MainWindow)
     ui.setupUi(MainLogin)
-    MainLogin.show()
+    MainLogin.showMaximized()
     main(ui)
     home(mw)
     sys.exit(app.exec_())
