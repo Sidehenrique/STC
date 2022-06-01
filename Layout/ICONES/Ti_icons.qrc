@@ -1,5 +1,28 @@
 <RCC>
   <qresource prefix="icons">
+    <file>1x/celularicon.png</file>
+    <file>1x/emailicon.png</file>
+    <file>1x/memoriaicon.png</file>
+    <file>1x/mouseicon.png</file>
+    <file>1x/mousepadicon.png</file>
+    <file>1x/notebookicon.png</file>
+    <file>1x/officeicon.png</file>
+    <file>1x/ssdicon.png</file>
+    <file>1x/tecladoicon.png</file>
+    <file>1x/windowsicon.png</file>
+    <file>1x/notebookicon.png</file>
+    <file>1x/OFFICE 20PX.png</file>
+    <file>1x/PESQUISAR 20PX.png</file>
+    <file>1x/PESQUISARHOVER20PX.png</file>
+    <file>1x/Prancheta 8 cópia 5.png</file>
+    <file>1x/Prancheta 8 cópia 11.png</file>
+    <file>1x/Prancheta 8 cópia 17.png</file>
+    <file>1x/Prancheta 8 cópia 21.png</file>
+    <file>1x/Prancheta 8 cópia 22.png</file>
+    <file>1x/Prancheta 8 cópia 27.png</file>
+    <file>1x/Prancheta 8 cópia 28.png</file>
+    <file>1x/Prancheta 8 cópia 29.png</file>
+    <file>1x/Prancheta 8 cópia 34.png</file>
     <file>1x/iconCell.png</file>
     <file>1x/iconColaboradores 245px.png</file>
     <file>1x/logo75cm.png</file>
